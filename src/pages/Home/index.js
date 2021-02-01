@@ -3,8 +3,11 @@ import Header from '../../components/Header';
 
 import {
   Container,
-  Intro
+  ContentText,
+  Content,
+  Intro,
 } from './styles';
+
 
 
 const Home = () => {
@@ -13,10 +16,13 @@ const Home = () => {
     <>
       <Header />
       <Container>
-        <Intro>
-          <h1>Aprenda Online</h1>
-          <p>Conectando alunos com os seus sonhos.</p>
-        </Intro>
+          <ContentText>
+            <Intro>
+              <h1>APRENDA ONLINE</h1>
+              <p>CONECTANDO ALUNOS AOS SEUS SONHOS</p>
+            </Intro>
+          </ContentText>
+          <Content></Content>
      </Container>
     </>
   )

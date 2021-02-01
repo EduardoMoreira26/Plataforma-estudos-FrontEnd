@@ -13,12 +13,12 @@ const Header = () => {
     <Container>
       <Content>
         <Logo>
-          <h2>AZIROM | Plataform</h2>
+          <h2>AZIROM</h2><span>| Plataform</span>
         </Logo>
         <Nav>
-            <li><a href="">Sobre</a></li>
-            <li><a href="">Nos Conheça</a></li>
-            <a href=""><button>Entrar</button></a>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Nos Conheça</a></li>
+            <a href="#"><button>Entrar</button></a>
         </Nav>
       </Content>
     </Container>

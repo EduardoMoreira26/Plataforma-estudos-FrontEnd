@@ -17,6 +17,14 @@ export const Content = styled.div`
 
 export const Logo = styled.div`
   font-weight: 700;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  span {
+    color: #616262;
+  }
 `;
 
 export const Nav = styled.ul`
@@ -43,11 +51,11 @@ export const Nav = styled.ul`
     
 
     button {
-      background: var(--color-secundary-light);
+      background: var(--color-secundary);
       height: 50px;
       min-width: 150px;
       border: none;
-      border-radius: 10px;
+      border-radius: 5px;
       color: #eee;
       font-weight: bold;
       position: relative;
@@ -55,7 +63,7 @@ export const Nav = styled.ul`
       -webkit-tap-highlight-color: transparent;
 
       &:hover {
-      background: var(--color-secundary);
+      background: var(--color-secundary-light);
       }
     }
   }

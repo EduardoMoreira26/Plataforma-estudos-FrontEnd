@@ -1,10 +1,13 @@
 import { createGlobalStyle } from 'styled-components';
 
+import background from '../assets/background.jpg';
+
+
 export default createGlobalStyle`
   :root {
   font-size: 60%;
 
-  --color-background:  #85c3ff;
+  --color-background:  #daedff;
   --color-primary: #223333;
   --color-secundary: #0085ff;
   --color-secundary-light: #85c3ff;
@@ -20,15 +23,12 @@ export default createGlobalStyle`
     outline: 0;
   }
 
-body,
-#root {
-  height: 100vh;
-}
 
   body {
-    background: var(--color-background);
     color: var(--color-black);
     -webkit-font-smoothing: antialiased;
+    background: url(${background}) no-repeat center ;
+    background-size: cover;
   }
 
   body, input, button {
