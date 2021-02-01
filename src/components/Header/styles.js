@@ -42,7 +42,7 @@ export const Nav = styled.ul`
 
   a {
     text-decoration: none;
-    color: var(--color-title);
+    color: #616262;
     transition: all ease 0.3s;
 
     &:hover {
