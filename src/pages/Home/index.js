@@ -30,11 +30,9 @@ const Home = () => {
             <ButtonsContainer>
               <Button href="">
                 <img src={studyIcon} alt="Estudar"/>
-                <span>Estudar</span> 
               </Button>
               <Button href="">
                 <img src={teacherIcon} alt="Dar Aulas"/>
-                <span>Dar Aulas</span>
                 
               </Button>
             </ButtonsContainer>

@@ -47,11 +47,12 @@ export const ButtonsContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
 `;
 
 export const Button = styled.a`
   width: 50%;
-  height: 350px;
+  height: 200px;
   background-color: #e3e4e3;
   display: flex;
   align-items: center;
@@ -62,6 +63,7 @@ export const Button = styled.a`
   border: 0 solid #616262;
   margin: 0 5px 0 5px;
   transition: border 0.3s;
+  padding: 50px;
   
   span {
     font-size: 26px;
@@ -72,15 +74,15 @@ export const Button = styled.a`
 
   
   img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     color: #616262;
   }
 
   &:hover {
-  border: 1px solid #616262;
-    
+    background: #616262;
   }
+
 `;
 
 
